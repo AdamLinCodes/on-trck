@@ -2,7 +2,9 @@
   "expo": {
     "name": "on-trck",
     "slug": "on-trck",
+    "scheme": "ontrck",
     "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +16,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.ontrck"
     },
     "android": {
+      "package": "com.yourname.ontrck",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

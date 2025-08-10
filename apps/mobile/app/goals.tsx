@@ -1,4 +1,3 @@
-// app/goals.tsx
 import { View, Text } from 'react-native';
 
 export default function GoalsScreen() {
@@ -9,4 +8,3 @@ export default function GoalsScreen() {
     </View>
   );
 }
-
